@@ -1,0 +1,2 @@
+campaign_name,adset_name,date,spend,impressions,clicks,ctr,purchases,revenue,roas,creative_type,creative_message,audience_type,platform,country
+Test Campaign,Set1,2023-01-01,100,10000,150,0.015,10,500,5.0,Image,"Comfort First",Women,Facebook,US

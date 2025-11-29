@@ -1,0 +1,552 @@
+# Kasparro Agentic FB Analyst Report
+Run ID: run-20251129T101757Z
+Query: Analyze ROAS drop in last 7 days
+
+## Executive Summary
+- Hypotheses generated: 284
+- Hypotheses accepted: 196
+- Low-CTR campaigns: 256
+
+## Hypotheses (brief)
+- bc656906: Creative underperformance in campaign ' OMEN  Cotton  Classics' (CTR 0.0102) (verdict: accept, confidence: 0.58)
+- 805a6c9a: Creative underperformance in campaign ' OMEN COTTON CLASSICS' (CTR 0.0076) (verdict: accept, confidence: 0.70)
+- 617be66e: Creative underperformance in campaign ' en Premium Modal' (CTR 0.0144) (verdict: reject, confidence: 0.45)
+- c0c97e71: Creative underperformance in campaign ' omen Summer Invisible' (CTR 0.0128) (verdict: reject, confidence: 0.45)
+- 6c8bf88f: Creative underperformance in campaign '-omen-Studio Sports' (CTR 0.0096) (verdict: accept, confidence: 0.61)
+- d83f05bc: Creative underperformance in campaign '-omen_|_Studio_Sports' (CTR 0.0114) (verdict: accept, confidence: 0.53)
+- 2593fab6: Creative underperformance in campaign 'M-n Bold Colors Drop' (CTR 0.0076) (verdict: accept, confidence: 0.69)
+- f7750c07: Creative underperformance in campaign 'ME- PREMIUM MODAL' (CTR 0.0117) (verdict: reject, confidence: 0.52)
+- 47ec33f4: Creative underperformance in campaign 'MEN  Signature  Soft' (CTR 0.0136) (verdict: reject, confidence: 0.45)
+- 476fc408: Creative underperformance in campaign 'MEN  Signture  Soft' (CTR 0.0055) (verdict: accept, confidence: 0.78)
+- ee081ba9: Creative underperformance in campaign 'MEN -ignature Soft' (CTR 0.0136) (verdict: reject, confidence: 0.45)
+- 118b71cd: Creative underperformance in campaign 'MEN B LD COLORS DROP' (CTR 0.0090) (verdict: accept, confidence: 0.64)
+- 10657dc9: Creative underperformance in campaign 'MEN BLD COLORS DROP' (CTR 0.0101) (verdict: accept, confidence: 0.59)
+- d9ed5f49: Creative underperformance in campaign 'MEN BOL COLORS DROP' (CTR 0.0045) (verdict: accept, confidence: 0.82)
+- 8cdb25ff: Creative underperformance in campaign 'MEN BOLD  OLORS DROP' (CTR 0.0061) (verdict: accept, confidence: 0.76)
+- 6a178801: Creative underperformance in campaign 'MEN BOLD COL RS DROP' (CTR 0.0054) (verdict: accept, confidence: 0.79)
+- 876be982: Creative underperformance in campaign 'MEN BOLD COLORS DROP' (CTR 0.0088) (verdict: accept, confidence: 0.64)
+- 1eab6ab9: Creative underperformance in campaign 'MEN COMFORTMA LAUNCH' (CTR 0.0095) (verdict: accept, confidence: 0.61)
+- cb45311a: Creative underperformance in campaign 'MEN PREM-UM MODAL' (CTR 0.0147) (verdict: reject, confidence: 0.45)
+- db3f788b: Creative underperformance in campaign 'MEN PREMIUM -ODAL' (CTR 0.0131) (verdict: reject, confidence: 0.45)
+- 4e9559fc: Creative underperformance in campaign 'MEN PREMIUM MOD-L' (CTR 0.0057) (verdict: accept, confidence: 0.77)
+- 780f144f: Creative underperformance in campaign 'MEN PREMIUM MODAL' (CTR 0.0106) (verdict: accept, confidence: 0.57)
+- 103b5575: Creative underperformance in campaign 'MEN SIGNATUR  SOFT' (CTR 0.0147) (verdict: reject, confidence: 0.45)
+- 899689ea: Creative underperformance in campaign 'MEN SIGNATURE S-FT' (CTR 0.0142) (verdict: reject, confidence: 0.45)
+- ae9ad33f: Creative underperformance in campaign 'MEN SIGNATURE SOFT' (CTR 0.0142) (verdict: reject, confidence: 0.45)
+- 7f6608dc: Creative underperformance in campaign 'MEN SIGNATURE SOT' (CTR 0.0118) (verdict: reject, confidence: 0.52)
+- 1c45a0fd: Creative underperformance in campaign 'MEN Sigature Soft' (CTR 0.0147) (verdict: reject, confidence: 0.45)
+- ac777710: Creative underperformance in campaign 'MEN Signatre Soft' (CTR 0.0149) (verdict: reject, confidence: 0.45)
+- 8cb05143: Creative underperformance in campaign 'MEN Signatu e Soft' (CTR 0.0132) (verdict: reject, confidence: 0.45)
+- aea26a8b: Creative underperformance in campaign 'MEN Signature  oft' (CTR 0.0123) (verdict: reject, confidence: 0.45)
+- 5165468f: Creative underperformance in campaign 'MEN Signature Sft' (CTR 0.0127) (verdict: reject, confidence: 0.45)
+- ad5eb88a: Creative underperformance in campaign 'MEN Signature Soft' (CTR 0.0143) (verdict: reject, confidence: 0.45)
+- ac4603d9: Creative underperformance in campaign 'MEN Signature Sot' (CTR 0.0123) (verdict: reject, confidence: 0.45)
+- 8d1dbbb4: Creative underperformance in campaign 'MEN Sinature Soft' (CTR 0.0098) (verdict: accept, confidence: 0.60)
+- 1e461831: Creative underperformance in campaign 'MEN-SIGNATURE SOFT' (CTR 0.0110) (verdict: accept, confidence: 0.55)
+- f515d514: Creative underperformance in campaign 'MEN_Si nature_Soft' (CTR 0.0142) (verdict: reject, confidence: 0.45)
+- 34fdd2a0: Creative underperformance in campaign 'MEN_Signatu e_Soft' (CTR 0.0136) (verdict: reject, confidence: 0.45)
+- e702c693: Creative underperformance in campaign 'MEN_Signature_S ft' (CTR 0.0119) (verdict: reject, confidence: 0.52)
+- 7b00431a: Creative underperformance in campaign 'Me   Premium  Modal' (CTR 0.0061) (verdict: accept, confidence: 0.76)
+- a95b29f2: Creative underperformance in campaign 'Me  Premium Modal' (CTR 0.0105) (verdict: accept, confidence: 0.57)
+- dd0684f2: Creative underperformance in campaign 'Me- Premium Modal' (CTR 0.0124) (verdict: reject, confidence: 0.45)
+- 08eb69a3: Creative underperformance in campaign 'Me-_Bold_Colors_Drop' (CTR 0.0116) (verdict: accept, confidence: 0.53)
+- 13c11ad8: Creative underperformance in campaign 'Men   old  Colors  Drop' (CTR 0.0132) (verdict: reject, confidence: 0.45)
+- 032886c7: Creative underperformance in campaign 'Men  Bold  Colors  Drop' (CTR 0.0095) (verdict: accept, confidence: 0.62)
+- 1d813f6d: Creative underperformance in campaign 'Men  Bold  Coors  Drop' (CTR 0.0072) (verdict: accept, confidence: 0.71)
+- 443df0f0: Creative underperformance in campaign 'Men  C-mfortMax  Launch' (CTR 0.0136) (verdict: reject, confidence: 0.45)
+- 6da1a35c: Creative underperformance in campaign 'Men  Co fortMax  Launch' (CTR 0.0109) (verdict: accept, confidence: 0.56)
+- c4a394ac: Creative underperformance in campaign 'Men  Comf rtMax  Launch' (CTR 0.0146) (verdict: reject, confidence: 0.45)
+- 0cc2c596: Creative underperformance in campaign 'Men  ComfortMax  Launch' (CTR 0.0144) (verdict: reject, confidence: 0.45)
+- 9f5a385e: Creative underperformance in campaign 'Men  Premium  Modal' (CTR 0.0108) (verdict: accept, confidence: 0.56)
+- a9a573e4: Creative underperformance in campaign 'Men  old  Colors  Drop' (CTR 0.0101) (verdict: accept, confidence: 0.59)
+- b77e6d1c: Creative underperformance in campaign 'Men  remium  Modal' (CTR 0.0131) (verdict: reject, confidence: 0.45)
+- 5b1e703b: Creative underperformance in campaign 'Men  remium Modal' (CTR 0.0104) (verdict: accept, confidence: 0.58)
+- 71281060: Creative underperformance in campaign 'Men -old Colors Drop' (CTR 0.0083) (verdict: accept, confidence: 0.66)
+- 5d7ccaf9: Creative underperformance in campaign 'Men -remium Modal' (CTR 0.0112) (verdict: accept, confidence: 0.54)
+- cfbe1acb: Creative underperformance in campaign 'Men -|  Athleisure  Cooling' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- 395af3f8: Creative underperformance in campaign 'Men B ld Colors Drop' (CTR 0.0120) (verdict: reject, confidence: 0.51)
+- 2409a066: Creative underperformance in campaign 'Men B-ld Colors Drop' (CTR 0.0066) (verdict: accept, confidence: 0.74)
+- 2a1873ef: Creative underperformance in campaign 'Men Bol Colors Drop' (CTR 0.0096) (verdict: accept, confidence: 0.61)
+- fedf8a64: Creative underperformance in campaign 'Men Bold -olors Drop' (CTR 0.0093) (verdict: accept, confidence: 0.63)
+- 67d57bc3: Creative underperformance in campaign 'Men Bold C-lors Drop' (CTR 0.0130) (verdict: reject, confidence: 0.45)
+- a6711284: Creative underperformance in campaign 'Men Bold Col-rs Drop' (CTR 0.0084) (verdict: accept, confidence: 0.66)
+- 072ac699: Creative underperformance in campaign 'Men Bold Colo s Drop' (CTR 0.0116) (verdict: accept, confidence: 0.53)
+- ec76eec5: Creative underperformance in campaign 'Men Bold Colo-s Drop' (CTR 0.0123) (verdict: reject, confidence: 0.45)
+- 3f959024: Creative underperformance in campaign 'Men Bold Color- Drop' (CTR 0.0114) (verdict: accept, confidence: 0.54)
+- 93ef63b7: Creative underperformance in campaign 'Men Bold Colors  rop' (CTR 0.0118) (verdict: reject, confidence: 0.52)
+- 5dbf0a44: Creative underperformance in campaign 'Men Bold Colors Dr p' (CTR 0.0089) (verdict: accept, confidence: 0.64)
+- 2ea9dacc: Creative underperformance in campaign 'Men Bold Colors Drop' (CTR 0.0083) (verdict: accept, confidence: 0.67)
+- 9d08ec18: Creative underperformance in campaign 'Men Bold Colors-Drop' (CTR 0.0126) (verdict: reject, confidence: 0.45)
+- 519aa40e: Creative underperformance in campaign 'Men BoldColors Drop' (CTR 0.0061) (verdict: accept, confidence: 0.76)
+- 8fe5ea0e: Creative underperformance in campaign 'Men Comfo tMax Launch' (CTR 0.0148) (verdict: reject, confidence: 0.45)
+- 83337305: Creative underperformance in campaign 'Men ComfortMax Lau-ch' (CTR 0.0123) (verdict: reject, confidence: 0.45)
+- 7d340610: Creative underperformance in campaign 'Men ComfortMax Lunch' (CTR 0.0129) (verdict: reject, confidence: 0.45)
+- cb87e17d: Creative underperformance in campaign 'Men Comfortma- Launch' (CTR 0.0145) (verdict: reject, confidence: 0.45)
+- 92470a9d: Creative underperformance in campaign 'Men Pr-mium Modal' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- 381514b2: Creative underperformance in campaign 'Men Pre ium Modal' (CTR 0.0109) (verdict: accept, confidence: 0.56)
+- 96c5dfd0: Creative underperformance in campaign 'Men Prem um Modal' (CTR 0.0077) (verdict: accept, confidence: 0.69)
+- a4957e05: Creative underperformance in campaign 'Men Premiu- Modal' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- b7c07d7d: Creative underperformance in campaign 'Men Premium -odal' (CTR 0.0066) (verdict: accept, confidence: 0.74)
+- 68e867c7: Creative underperformance in campaign 'Men Premium M-dal' (CTR 0.0098) (verdict: accept, confidence: 0.60)
+- 03c820f0: Creative underperformance in campaign 'Men Premium Mod-l' (CTR 0.0101) (verdict: accept, confidence: 0.59)
+- 4d952d57: Creative underperformance in campaign 'Men Premium Modal' (CTR 0.0106) (verdict: accept, confidence: 0.57)
+- 90144d78: Creative underperformance in campaign 'Men Sig-ature Soft' (CTR 0.0128) (verdict: reject, confidence: 0.45)
+- dcb334ca: Creative underperformance in campaign 'Men Sigature Soft' (CTR 0.0143) (verdict: reject, confidence: 0.45)
+- 3413e934: Creative underperformance in campaign 'Men Signature Soft' (CTR 0.0145) (verdict: reject, confidence: 0.45)
+- f9450b79: Creative underperformance in campaign 'Men Signture Soft' (CTR 0.0144) (verdict: reject, confidence: 0.45)
+- 4cfc4e5b: Creative underperformance in campaign 'Men remium Modal' (CTR 0.0084) (verdict: accept, confidence: 0.66)
+- fc66be38: Creative underperformance in campaign 'Men | Athleis re Cooling' (CTR 0.0140) (verdict: reject, confidence: 0.45)
+- 596d42e4: Creative underperformance in campaign 'Men- Premium  Modal' (CTR 0.0081) (verdict: accept, confidence: 0.67)
+- 09693ab6: Creative underperformance in campaign 'Men-Bold Colors Drop' (CTR 0.0140) (verdict: reject, confidence: 0.45)
+- a8d80f8d: Creative underperformance in campaign 'Men-Premium Modal' (CTR 0.0099) (verdict: accept, confidence: 0.60)
+- 98b087a2: Creative underperformance in campaign 'Men_Bold_Co ors_Drop' (CTR 0.0130) (verdict: reject, confidence: 0.45)
+- 85e15776: Creative underperformance in campaign 'Men_Bold_Colors_Drop' (CTR 0.0093) (verdict: accept, confidence: 0.62)
+- 1a727c02: Creative underperformance in campaign 'Men_Comf-rtMax_Launch' (CTR 0.0147) (verdict: reject, confidence: 0.45)
+- 2a32ea2e: Creative underperformance in campaign 'Men_Premium_Modal' (CTR 0.0097) (verdict: accept, confidence: 0.61)
+- 71f39dc5: Creative underperformance in campaign 'W MEN Cotton Classics' (CTR 0.0088) (verdict: accept, confidence: 0.64)
+- ab8f6ece: Creative underperformance in campaign 'W men Summer Invisible' (CTR 0.0083) (verdict: accept, confidence: 0.66)
+- 9cfe3169: Creative underperformance in campaign 'W men-Studio Sports' (CTR 0.0116) (verdict: accept, confidence: 0.53)
+- cdebde93: Creative underperformance in campaign 'WMEN Cotton Classics' (CTR 0.0127) (verdict: reject, confidence: 0.45)
+- 4bd14438: Creative underperformance in campaign 'WMEN Seamless Everyday' (CTR 0.0098) (verdict: accept, confidence: 0.60)
+- 25d78144: Creative underperformance in campaign 'WOEN  Cotton  Classics' (CTR 0.0054) (verdict: accept, confidence: 0.79)
+- 2685030f: Creative underperformance in campaign 'WOEN FIT & LIFT' (CTR 0.0069) (verdict: accept, confidence: 0.73)
+- 7106eed7: Creative underperformance in campaign 'WOME SEAMLESS EVERYDAY' (CTR 0.0113) (verdict: accept, confidence: 0.54)
+- 4f788233: Creative underperformance in campaign 'WOMEN  -eamless  Everyday' (CTR 0.0097) (verdict: accept, confidence: 0.61)
+- 8b685e79: Creative underperformance in campaign 'WOMEN  Cotton  Cl-ssics' (CTR 0.0122) (verdict: reject, confidence: 0.50)
+- 3f11f783: Creative underperformance in campaign 'WOMEN  Cotton  Cla-sics' (CTR 0.0124) (verdict: reject, confidence: 0.45)
+- 83e1d55e: Creative underperformance in campaign 'WOMEN  Cotton  Classics' (CTR 0.0097) (verdict: accept, confidence: 0.61)
+- 199642cc: Creative underperformance in campaign 'WOMEN  Seamles   Everyday' (CTR 0.0091) (verdict: accept, confidence: 0.63)
+- 75d6ab97: Creative underperformance in campaign 'WOMEN  Seamless  Eve yday' (CTR 0.0124) (verdict: reject, confidence: 0.45)
+- 9f6e4e96: Creative underperformance in campaign 'WOMEN  Seamless  Everyday' (CTR 0.0073) (verdict: accept, confidence: 0.71)
+- 012ec2a2: Creative underperformance in campaign 'WOMEN  Seamless- Everyday' (CTR 0.0104) (verdict: accept, confidence: 0.58)
+- 84e90798: Creative underperformance in campaign 'WOMEN C tton Classics' (CTR 0.0116) (verdict: accept, confidence: 0.53)
+- 1837fb9a: Creative underperformance in campaign 'WOMEN COTTON CLASS-CS' (CTR 0.0123) (verdict: reject, confidence: 0.45)
+- 43f8d92b: Creative underperformance in campaign 'WOMEN COTTON CLASSICS' (CTR 0.0108) (verdict: accept, confidence: 0.56)
+- aac7524e: Creative underperformance in campaign 'WOMEN COTTON CLASSIS' (CTR 0.0096) (verdict: accept, confidence: 0.61)
+- 7626189b: Creative underperformance in campaign 'WOMEN COTTON LASSICS' (CTR 0.0102) (verdict: accept, confidence: 0.59)
+- c44ccdd5: Creative underperformance in campaign 'WOMEN Cot-on Classics' (CTR 0.0095) (verdict: accept, confidence: 0.62)
+- 9c702eb9: Creative underperformance in campaign 'WOMEN Coton Classics' (CTR 0.0126) (verdict: reject, confidence: 0.45)
+- a25e69c7: Creative underperformance in campaign 'WOMEN Cotton Cla-sics' (CTR 0.0110) (verdict: accept, confidence: 0.55)
+- ee6d09f5: Creative underperformance in campaign 'WOMEN Cotton Classics' (CTR 0.0101) (verdict: accept, confidence: 0.59)
+- 34013e5e: Creative underperformance in campaign 'WOMEN Cotton Classis' (CTR 0.0126) (verdict: reject, confidence: 0.45)
+- 283adb08: Creative underperformance in campaign 'WOMEN SEAM ESS EVERYDAY' (CTR 0.0092) (verdict: accept, confidence: 0.63)
+- f9645d8a: Creative underperformance in campaign 'WOMEN SEAMLESS EV RYDAY' (CTR 0.0079) (verdict: accept, confidence: 0.68)
+- ea36c84a: Creative underperformance in campaign 'WOMEN SEAMLESS EVE YDAY' (CTR 0.0075) (verdict: accept, confidence: 0.70)
+- df624007: Creative underperformance in campaign 'WOMEN SEAMLESS EVERYDAY' (CTR 0.0079) (verdict: accept, confidence: 0.68)
+- 21c6483e: Creative underperformance in campaign 'WOMEN SUMMER I VISIBLE' (CTR 0.0137) (verdict: reject, confidence: 0.45)
+- f558dd13: Creative underperformance in campaign 'WOMEN SUMMER INVISIBE' (CTR 0.0124) (verdict: reject, confidence: 0.45)
+- a24a2203: Creative underperformance in campaign 'WOMEN SUMMER INVISIBLE' (CTR 0.0102) (verdict: accept, confidence: 0.59)
+- 1cb8d47b: Creative underperformance in campaign 'WOMEN SUMMER INVSIBLE' (CTR 0.0107) (verdict: accept, confidence: 0.57)
+- 131d65bd: Creative underperformance in campaign 'WOMEN Seamless E eryday' (CTR 0.0108) (verdict: accept, confidence: 0.56)
+- 9250fe51: Creative underperformance in campaign 'WOMEN Seamless Eeryday' (CTR 0.0096) (verdict: accept, confidence: 0.61)
+- 33d5429c: Creative underperformance in campaign 'WOMEN Seamless Everyday' (CTR 0.0086) (verdict: accept, confidence: 0.66)
+- f5b0a265: Creative underperformance in campaign 'WOMEN Seamless Everydy' (CTR 0.0053) (verdict: accept, confidence: 0.79)
+- 88b756db: Creative underperformance in campaign 'WOMEN Semless Everyday' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- 5cda566a: Creative underperformance in campaign 'WOMEN eamless Everyday' (CTR 0.0086) (verdict: accept, confidence: 0.65)
+- 7aeba673: Creative underperformance in campaign 'WOMEN otton Classics' (CTR 0.0107) (verdict: accept, confidence: 0.56)
+- dfbcde36: Creative underperformance in campaign 'WOMEN | STUDIO SPORTS' (CTR 0.0114) (verdict: accept, confidence: 0.53)
+- b9d2a3d8: Creative underperformance in campaign 'WOMEN | SUDIO SPORTS' (CTR 0.0093) (verdict: accept, confidence: 0.63)
+- 1f583aec: Creative underperformance in campaign 'WOMENSeamless Everyday' (CTR 0.0091) (verdict: accept, confidence: 0.63)
+- 935b9b89: Creative underperformance in campaign 'WOMEN_Cot-on_Classics' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- 633f1e14: Creative underperformance in campaign 'WOMEN_Cotton_Clas ics' (CTR 0.0143) (verdict: reject, confidence: 0.45)
+- 0c41a9a7: Creative underperformance in campaign 'WOMEN_Cotton_Classics' (CTR 0.0101) (verdict: accept, confidence: 0.59)
+- 366b4168: Creative underperformance in campaign 'WOMEN_Seamless_Ever-day' (CTR 0.0081) (verdict: accept, confidence: 0.67)
+- 8f8ad828: Creative underperformance in campaign 'WOMEN_Seamless_Everyday' (CTR 0.0079) (verdict: accept, confidence: 0.68)
+- 676e6b40: Creative underperformance in campaign 'WOMEN_otton_Classics' (CTR 0.0120) (verdict: reject, confidence: 0.51)
+- 751cb590: Creative underperformance in campaign 'WOMN Cotton Classics' (CTR 0.0115) (verdict: accept, confidence: 0.53)
+- 2727c375: Creative underperformance in campaign 'WOMN_Cotton_Classics' (CTR 0.0060) (verdict: accept, confidence: 0.76)
+- 39e6cb68: Creative underperformance in campaign 'Wmen | Studio Sports' (CTR 0.0062) (verdict: accept, confidence: 0.75)
+- f2b0c5ed: Creative underperformance in campaign 'Wmen_Fit_&_Lift' (CTR 0.0128) (verdict: reject, confidence: 0.45)
+- eb03ae18: Creative underperformance in campaign 'Wo-en  |  Studio  Sports' (CTR 0.0124) (verdict: reject, confidence: 0.45)
+- c809e58f: Creative underperformance in campaign 'Wom n-Studio Sports' (CTR 0.0120) (verdict: reject, confidence: 0.51)
+- c8934d20: Creative underperformance in campaign 'Wom-n Cotton Classics' (CTR 0.0123) (verdict: reject, confidence: 0.45)
+- ca2ee8b1: Creative underperformance in campaign 'Wom-n Fit & Lift' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- 8cc41712: Creative underperformance in campaign 'Women  |  Studio  Sports' (CTR 0.0109) (verdict: accept, confidence: 0.56)
+- 40991078: Creative underperformance in campaign 'Women  |  Studio Sports' (CTR 0.0102) (verdict: accept, confidence: 0.58)
+- 4031aeec: Creative underperformance in campaign 'Women C-tton Classics' (CTR 0.0080) (verdict: accept, confidence: 0.68)
+- d2767775: Creative underperformance in campaign 'Women Co-ton Classics' (CTR 0.0115) (verdict: accept, confidence: 0.53)
+- f9ece4a7: Creative underperformance in campaign 'Women Cottn Classics' (CTR 0.0084) (verdict: accept, confidence: 0.66)
+- 85204307: Creative underperformance in campaign 'Women Cotton Clas ics' (CTR 0.0131) (verdict: reject, confidence: 0.45)
+- 87d4a4cf: Creative underperformance in campaign 'Women Cotton Classics' (CTR 0.0101) (verdict: accept, confidence: 0.59)
+- ecb7c671: Creative underperformance in campaign 'Women Cotton Classis' (CTR 0.0131) (verdict: reject, confidence: 0.45)
+- 71fe2ed2: Creative underperformance in campaign 'Women Cotton lassics' (CTR 0.0083) (verdict: accept, confidence: 0.67)
+- f1d917d7: Creative underperformance in campaign 'Women Fit  Lift' (CTR 0.0083) (verdict: accept, confidence: 0.67)
+- 380ee2ca: Creative underperformance in campaign 'Women Fit & ift' (CTR 0.0123) (verdict: reject, confidence: 0.45)
+- 49c9e0b5: Creative underperformance in campaign 'Women Se mless Everyday' (CTR 0.0139) (verdict: reject, confidence: 0.45)
+- ebdff25c: Creative underperformance in campaign 'Women Seamless Eve yday' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- abbbe57f: Creative underperformance in campaign 'Women Seamless Everyday' (CTR 0.0074) (verdict: accept, confidence: 0.70)
+- 5efe8637: Creative underperformance in campaign 'Women Semless Everyday' (CTR 0.0113) (verdict: accept, confidence: 0.54)
+- e6266026: Creative underperformance in campaign 'Women Sum er Invisible' (CTR 0.0125) (verdict: reject, confidence: 0.45)
+- 2d7623d9: Creative underperformance in campaign 'Women Summ-r Invisible' (CTR 0.0113) (verdict: accept, confidence: 0.54)
+- b99efc9a: Creative underperformance in campaign 'Women Summer In-isible' (CTR 0.0097) (verdict: accept, confidence: 0.61)
+- cbb88109: Creative underperformance in campaign 'Women Summer Invisi-le' (CTR 0.0132) (verdict: reject, confidence: 0.45)
+- c049d2ca: Creative underperformance in campaign 'Women Summer Invisible' (CTR 0.0102) (verdict: accept, confidence: 0.59)
+- 60a46beb: Creative underperformance in campaign 'Women it & Lift' (CTR 0.0143) (verdict: reject, confidence: 0.45)
+- e4ce1d2c: Creative underperformance in campaign 'Women | Stu io Sports' (CTR 0.0093) (verdict: accept, confidence: 0.62)
+- 2684bbb7: Creative underperformance in campaign 'Women | Studi Sports' (CTR 0.0122) (verdict: reject, confidence: 0.50)
+- b620e905: Creative underperformance in campaign 'Women | Studio  ports' (CTR 0.0130) (verdict: reject, confidence: 0.45)
+- 9113b513: Creative underperformance in campaign 'Women | Studio Sp rts' (CTR 0.0098) (verdict: accept, confidence: 0.60)
+- ddd43b0a: Creative underperformance in campaign 'Women | Studio Spo-ts' (CTR 0.0095) (verdict: accept, confidence: 0.62)
+- c182faaa: Creative underperformance in campaign 'Women | Studio Spors' (CTR 0.0129) (verdict: reject, confidence: 0.45)
+- 0a8abcaa: Creative underperformance in campaign 'Women | Studio Sports' (CTR 0.0109) (verdict: accept, confidence: 0.56)
+- e30e6493: Creative underperformance in campaign 'Women | tudio Sports' (CTR 0.0113) (verdict: accept, confidence: 0.54)
+- d8c7b43c: Creative underperformance in campaign 'Women-Stud o Sports' (CTR 0.0140) (verdict: reject, confidence: 0.45)
+- 33c06a17: Creative underperformance in campaign 'Women-Studio -ports' (CTR 0.0090) (verdict: accept, confidence: 0.64)
+- 53db7e44: Creative underperformance in campaign 'Women-Studio S orts' (CTR 0.0066) (verdict: accept, confidence: 0.74)
+- fca0ac0a: Creative underperformance in campaign 'Women-Studio Spo-ts' (CTR 0.0000) (verdict: accept, confidence: 0.99)
+- 6c4869ef: Creative underperformance in campaign 'Women-Studio Sports' (CTR 0.0108) (verdict: accept, confidence: 0.56)
+- 4af9f4cf: Creative underperformance in campaign 'Women-Studio-Sports' (CTR 0.0089) (verdict: accept, confidence: 0.64)
+- d742e67c: Creative underperformance in campaign 'WomenCotton Classics' (CTR 0.0095) (verdict: accept, confidence: 0.62)
+- 1fd63d2c: Creative underperformance in campaign 'WomenSeamless Everyday' (CTR 0.0110) (verdict: accept, confidence: 0.55)
+- f4f06f04: Creative underperformance in campaign 'Women_-it_&_Lift' (CTR 0.0137) (verdict: reject, confidence: 0.45)
+- 496a0a07: Creative underperformance in campaign 'Women_|-Studio_Sports' (CTR 0.0097) (verdict: accept, confidence: 0.61)
+- be195fd3: Creative underperformance in campaign 'Women_|_Studio_ ports' (CTR 0.0113) (verdict: accept, confidence: 0.54)
+- aa1501c5: Creative underperformance in campaign 'Women_|_Studio_Spo ts' (CTR 0.0137) (verdict: reject, confidence: 0.45)
+- 6a1e9ce3: Creative underperformance in campaign 'Women_|_Studio_Sports' (CTR 0.0112) (verdict: accept, confidence: 0.55)
+- 1bd0228c: Creative underperformance in campaign 'me bold colors drop' (CTR 0.0092) (verdict: accept, confidence: 0.63)
+- 98e2739d: Creative underperformance in campaign 'men bld colors drop' (CTR 0.0087) (verdict: accept, confidence: 0.65)
+- 74255377: Creative underperformance in campaign 'men bo-d colors drop' (CTR 0.0111) (verdict: accept, confidence: 0.55)
+- 57b8bb11: Creative underperformance in campaign 'men bold clors drop' (CTR 0.0119) (verdict: reject, confidence: 0.52)
+- cdb9f586: Creative underperformance in campaign 'men bold colors drop' (CTR 0.0097) (verdict: accept, confidence: 0.61)
+- f63a708a: Creative underperformance in campaign 'men co fortmax launch' (CTR 0.0149) (verdict: reject, confidence: 0.45)
+- 07dd9c7b: Creative underperformance in campaign 'men comfor-max launch' (CTR 0.0149) (verdict: reject, confidence: 0.45)
+- f4b0f70a: Creative underperformance in campaign 'men premium modal' (CTR 0.0110) (verdict: accept, confidence: 0.55)
+- 59d55cb8: Creative underperformance in campaign 'men sig ature soft' (CTR 0.0130) (verdict: reject, confidence: 0.45)
+- abb97aac: Creative underperformance in campaign 'men signa ure soft' (CTR 0.0145) (verdict: reject, confidence: 0.45)
+- 2fbf8984: Creative underperformance in campaign 'men signature soft' (CTR 0.0144) (verdict: reject, confidence: 0.45)
+- d7c4e579: Creative underperformance in campaign 'omen Summer Invisible' (CTR 0.0119) (verdict: reject, confidence: 0.52)
+- 20746a07: Creative underperformance in campaign 'omen | Studio Sports' (CTR 0.0138) (verdict: reject, confidence: 0.45)
+- aa38679c: Creative underperformance in campaign 'w men cotton classics' (CTR 0.0088) (verdict: accept, confidence: 0.65)
+- 241692a6: Creative underperformance in campaign 'w-men cotton classics' (CTR 0.0094) (verdict: accept, confidence: 0.62)
+- 31be81c4: Creative underperformance in campaign 'wo-en seamless everyday' (CTR 0.0097) (verdict: accept, confidence: 0.61)
+- 0cced7b8: Creative underperformance in campaign 'woen Summer Invisible' (CTR 0.0118) (verdict: reject, confidence: 0.52)
+- fcd22cf0: Creative underperformance in campaign 'wom-n_Summer_Invisible' (CTR 0.0122) (verdict: reject, confidence: 0.50)
+- 62bc78c8: Creative underperformance in campaign 'wome  Summer Invisible' (CTR 0.0117) (verdict: reject, confidence: 0.52)
+- 36ec579b: Creative underperformance in campaign 'women  Summ r  Invisible' (CTR 0.0086) (verdict: accept, confidence: 0.65)
+- 8679c8a5: Creative underperformance in campaign 'women  Summer  Invi ible' (CTR 0.0094) (verdict: accept, confidence: 0.62)
+- d5d0879f: Creative underperformance in campaign 'women  Summer  Invisib e' (CTR 0.0100) (verdict: accept, confidence: 0.60)
+- 223ec31f: Creative underperformance in campaign 'women  Summer  Invisible' (CTR 0.0106) (verdict: accept, confidence: 0.57)
+- 36b7a272: Creative underperformance in campaign 'women Su mer Invisible' (CTR 0.0079) (verdict: accept, confidence: 0.68)
+- 902eff69: Creative underperformance in campaign 'women Summ-r Invisible' (CTR 0.0109) (verdict: accept, confidence: 0.56)
+- 0f2f85b4: Creative underperformance in campaign 'women Summer  nvisible' (CTR 0.0133) (verdict: reject, confidence: 0.45)
+- 602194cd: Creative underperformance in campaign 'women Summer In isible' (CTR 0.0129) (verdict: reject, confidence: 0.45)
+- 371f64d5: Creative underperformance in campaign 'women Summer In-isible' (CTR 0.0093) (verdict: accept, confidence: 0.62)
+- a918b006: Creative underperformance in campaign 'women Summer Inv-sible' (CTR 0.0116) (verdict: accept, confidence: 0.53)
+- 4b3341e8: Creative underperformance in campaign 'women Summer Invi-ible' (CTR 0.0120) (verdict: reject, confidence: 0.51)
+- 90f97bd4: Creative underperformance in campaign 'women Summer Invisble' (CTR 0.0089) (verdict: accept, confidence: 0.64)
+- 996c39cc: Creative underperformance in campaign 'women Summer Invisi-le' (CTR 0.0089) (verdict: accept, confidence: 0.64)
+- cfc9957d: Creative underperformance in campaign 'women Summer Invisible' (CTR 0.0106) (verdict: accept, confidence: 0.57)
+- 98cff1b4: Creative underperformance in campaign 'women c-tton classics' (CTR 0.0083) (verdict: accept, confidence: 0.66)
+- 9a53927c: Creative underperformance in campaign 'women co ton classics' (CTR 0.0112) (verdict: accept, confidence: 0.54)
+- 27e6399a: Creative underperformance in campaign 'women cott n classics' (CTR 0.0093) (verdict: accept, confidence: 0.62)
+- 2c35e020: Creative underperformance in campaign 'women cotton clasics' (CTR 0.0104) (verdict: accept, confidence: 0.58)
+- ed047a28: Creative underperformance in campaign 'women cotton classics' (CTR 0.0095) (verdict: accept, confidence: 0.62)
+- f429d3c5: Creative underperformance in campaign 'women fit & li t' (CTR 0.0078) (verdict: accept, confidence: 0.69)
+- c5baddb6: Creative underperformance in campaign 'women s amless everyday' (CTR 0.0098) (verdict: accept, confidence: 0.60)
+- cbbfbb65: Creative underperformance in campaign 'women s-mmer invisible' (CTR 0.0085) (verdict: accept, confidence: 0.66)
+- 195246b5: Creative underperformance in campaign 'women seam-ess everyday' (CTR 0.0092) (verdict: accept, confidence: 0.63)
+- e031b1f2: Creative underperformance in campaign 'women seamess everyday' (CTR 0.0077) (verdict: accept, confidence: 0.69)
+- c18791e0: Creative underperformance in campaign 'women seaml-ss everyday' (CTR 0.0106) (verdict: accept, confidence: 0.57)
+- 1c5ea9a5: Creative underperformance in campaign 'women seamless everday' (CTR 0.0094) (verdict: accept, confidence: 0.62)
+- f9be001e: Creative underperformance in campaign 'women seamless everyday' (CTR 0.0079) (verdict: accept, confidence: 0.68)
+- 456e7a60: Creative underperformance in campaign 'women seamless-everyday' (CTR 0.0089) (verdict: accept, confidence: 0.64)
+- edd4ba09: Creative underperformance in campaign 'women su-mer invisible' (CTR 0.0057) (verdict: accept, confidence: 0.77)
+- 9d1a3ee1: Creative underperformance in campaign 'women summe- invisible' (CTR 0.0088) (verdict: accept, confidence: 0.64)
+- 1a28a9a7: Creative underperformance in campaign 'women summer in isible' (CTR 0.0094) (verdict: accept, confidence: 0.62)
+- 9583d864: Creative underperformance in campaign 'women summer invisible' (CTR 0.0106) (verdict: accept, confidence: 0.57)
+- c2e30bc5: Creative underperformance in campaign 'women | studio sp-rts' (CTR 0.0115) (verdict: accept, confidence: 0.53)
+- 925f7f4b: Creative underperformance in campaign 'women | studio spo ts' (CTR 0.0062) (verdict: accept, confidence: 0.76)
+- c6b9af15: Creative underperformance in campaign 'women | studio sports' (CTR 0.0101) (verdict: accept, confidence: 0.59)
+- 8483ed8d: Creative underperformance in campaign 'women | studio sprts' (CTR 0.0137) (verdict: reject, confidence: 0.45)
+- 6abebcd2: Creative underperformance in campaign 'women_Summe _Invisible' (CTR 0.0077) (verdict: accept, confidence: 0.69)
+- 261b0fd3: Creative underperformance in campaign 'women_Summer_Inisible' (CTR 0.0095) (verdict: accept, confidence: 0.61)
+- ff12e9df: Creative underperformance in campaign 'women_Summer_Invisi-le' (CTR 0.0086) (verdict: accept, confidence: 0.65)
+- 60369a6c: Creative underperformance in campaign 'women_Summer_Invisible' (CTR 0.0110) (verdict: accept, confidence: 0.55)
+- 5124753a: Creative underperformance in campaign 'womn  Summer  Invisible' (CTR 0.0125) (verdict: reject, confidence: 0.45)
+- 82776c28: Creative underperformance in campaign 'womn cotton classics' (CTR 0.0079) (verdict: accept, confidence: 0.68)
+- eb51e458: Low ROAS in campaign ' OMEN COTTON CLASSICS' (ROAS 0.32) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.50)
+- 8ca17fc4: Low ROAS in campaign 'MEN  Signture  Soft' (ROAS 0.33) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.50)
+- a00d6d27: Low ROAS in campaign 'MEN BLD COLORS DROP' (ROAS 0.40) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.48)
+- 55b0e73d: Low ROAS in campaign 'MEN BOLD  OLORS DROP' (ROAS 0.41) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.48)
+- f39b71dd: Low ROAS in campaign 'MEN BOLD COL RS DROP' (ROAS 0.28) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.52)
+- 61949c44: Low ROAS in campaign 'MEN COMFORTMA LAUNCH' (ROAS 0.22) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.53)
+- 897e3010: Low ROAS in campaign 'MEN PREMIUM MOD-L' (ROAS 0.34) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.50)
+- 60537907: Low ROAS in campaign 'MEN SIGATURE SOFT' (ROAS 0.36) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.49)
+- a654fac1: Low ROAS in campaign 'MEN SIGNATURE SOT' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- 5568bd8b: Low ROAS in campaign 'MEN Signatu e Soft' (ROAS 0.49) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.45)
+- 76d60e29: Low ROAS in campaign 'MEN | ATHLEISURECOOLING' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- b8a170e0: Low ROAS in campaign 'MEN_Signature_S ft' (ROAS 0.33) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.50)
+- ae7a7b82: Low ROAS in campaign 'Me-_Bold_Colors_Drop' (ROAS 0.42) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.47)
+- 5e29ec27: Low ROAS in campaign 'Men  Bold  Coors  Drop' (ROAS 0.17) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.55)
+- e136729a: Low ROAS in campaign 'Men Bold Color- Drop' (ROAS 0.32) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.50)
+- 67000143: Low ROAS in campaign 'Men Bold Colors Dr p' (ROAS 0.24) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.53)
+- e438eeea: Low ROAS in campaign 'Men Prem um Modal' (ROAS 0.33) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.50)
+- d9783275: Low ROAS in campaign 'Men-Athleisure Cooli-g' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- 598d2bb2: Low ROAS in campaign 'WOMEN SUMMER INVSIBLE' (ROAS 0.44) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.47)
+- 15848713: Low ROAS in campaign 'Women Cotton Clas ics' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- f98f8900: Low ROAS in campaign 'Women Fi  & Lift' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- 7a6d9b5f: Low ROAS in campaign 'Women Fit & ift' (ROAS 0.28) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.52)
+- d9bdb15e: Low ROAS in campaign 'men sig ature soft' (ROAS 0.24) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.53)
+- 2bebae64: Low ROAS in campaign 'omen | Studio Sports' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- 72bc4bba: Low ROAS in campaign 'women Summer In isible' (ROAS 0.33) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.50)
+- e35a9c06: Low ROAS in campaign 'women Summer Inv-sible' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- 88fa17d5: Low ROAS in campaign 'women su-mer invisible' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+- 7dccb0b6: Low ROAS in campaign 'women | studio spo ts' (ROAS 0.00) — possible audience mismatch or offer issue (verdict: accept, confidence: 0.60)
+
+## Creative Recommendations (brief)
+- Campaign:  OMEN  Cotton  Classics, recommendations: 4 variants
+- Campaign:  OMEN COTTON CLASSICS, recommendations: 4 variants
+- Campaign:  en Premium Modal, recommendations: 4 variants
+- Campaign:  omen Summer Invisible, recommendations: 4 variants
+- Campaign: -omen-Studio Sports, recommendations: 4 variants
+- Campaign: -omen_|_Studio_Sports, recommendations: 4 variants
+- Campaign: M-n Bold Colors Drop, recommendations: 4 variants
+- Campaign: ME- PREMIUM MODAL, recommendations: 4 variants
+- Campaign: MEN  Signature  Soft, recommendations: 4 variants
+- Campaign: MEN  Signture  Soft, recommendations: 4 variants
+- Campaign: MEN -ignature Soft, recommendations: 4 variants
+- Campaign: MEN B LD COLORS DROP, recommendations: 4 variants
+- Campaign: MEN BLD COLORS DROP, recommendations: 4 variants
+- Campaign: MEN BOL COLORS DROP, recommendations: 4 variants
+- Campaign: MEN BOLD  OLORS DROP, recommendations: 4 variants
+- Campaign: MEN BOLD COL RS DROP, recommendations: 4 variants
+- Campaign: MEN BOLD COLORS DROP, recommendations: 4 variants
+- Campaign: MEN COMFORTMA LAUNCH, recommendations: 4 variants
+- Campaign: MEN PREM-UM MODAL, recommendations: 4 variants
+- Campaign: MEN PREMIUM -ODAL, recommendations: 4 variants
+- Campaign: MEN PREMIUM MOD-L, recommendations: 4 variants
+- Campaign: MEN PREMIUM MODAL, recommendations: 4 variants
+- Campaign: MEN SIGNATUR  SOFT, recommendations: 4 variants
+- Campaign: MEN SIGNATURE S-FT, recommendations: 4 variants
+- Campaign: MEN SIGNATURE SOFT, recommendations: 4 variants
+- Campaign: MEN SIGNATURE SOT, recommendations: 4 variants
+- Campaign: MEN Sigature Soft, recommendations: 4 variants
+- Campaign: MEN Signatre Soft, recommendations: 4 variants
+- Campaign: MEN Signatu e Soft, recommendations: 4 variants
+- Campaign: MEN Signature  oft, recommendations: 4 variants
+- Campaign: MEN Signature Sft, recommendations: 4 variants
+- Campaign: MEN Signature Soft, recommendations: 4 variants
+- Campaign: MEN Signature Sot, recommendations: 4 variants
+- Campaign: MEN Sinature Soft, recommendations: 4 variants
+- Campaign: MEN-SIGNATURE SOFT, recommendations: 4 variants
+- Campaign: MEN_Si nature_Soft, recommendations: 4 variants
+- Campaign: MEN_Signatu e_Soft, recommendations: 4 variants
+- Campaign: MEN_Signature_S ft, recommendations: 4 variants
+- Campaign: Me   Premium  Modal, recommendations: 4 variants
+- Campaign: Me  Premium Modal, recommendations: 4 variants
+- Campaign: Me- Premium Modal, recommendations: 4 variants
+- Campaign: Me-_Bold_Colors_Drop, recommendations: 4 variants
+- Campaign: Men   old  Colors  Drop, recommendations: 4 variants
+- Campaign: Men  Bold  Colors  Drop, recommendations: 4 variants
+- Campaign: Men  Bold  Coors  Drop, recommendations: 4 variants
+- Campaign: Men  C-mfortMax  Launch, recommendations: 4 variants
+- Campaign: Men  Co fortMax  Launch, recommendations: 4 variants
+- Campaign: Men  Comf rtMax  Launch, recommendations: 4 variants
+- Campaign: Men  ComfortMax  Launch, recommendations: 4 variants
+- Campaign: Men  Premium  Modal, recommendations: 4 variants
+- Campaign: Men  old  Colors  Drop, recommendations: 4 variants
+- Campaign: Men  remium  Modal, recommendations: 4 variants
+- Campaign: Men  remium Modal, recommendations: 4 variants
+- Campaign: Men -old Colors Drop, recommendations: 4 variants
+- Campaign: Men -remium Modal, recommendations: 4 variants
+- Campaign: Men -|  Athleisure  Cooling, recommendations: 4 variants
+- Campaign: Men B ld Colors Drop, recommendations: 4 variants
+- Campaign: Men B-ld Colors Drop, recommendations: 4 variants
+- Campaign: Men Bol Colors Drop, recommendations: 4 variants
+- Campaign: Men Bold -olors Drop, recommendations: 4 variants
+- Campaign: Men Bold C-lors Drop, recommendations: 4 variants
+- Campaign: Men Bold Col-rs Drop, recommendations: 4 variants
+- Campaign: Men Bold Colo s Drop, recommendations: 4 variants
+- Campaign: Men Bold Colo-s Drop, recommendations: 4 variants
+- Campaign: Men Bold Color- Drop, recommendations: 4 variants
+- Campaign: Men Bold Colors  rop, recommendations: 4 variants
+- Campaign: Men Bold Colors Dr p, recommendations: 4 variants
+- Campaign: Men Bold Colors Drop, recommendations: 4 variants
+- Campaign: Men Bold Colors-Drop, recommendations: 4 variants
+- Campaign: Men BoldColors Drop, recommendations: 4 variants
+- Campaign: Men Comfo tMax Launch, recommendations: 4 variants
+- Campaign: Men ComfortMax Lau-ch, recommendations: 4 variants
+- Campaign: Men ComfortMax Lunch, recommendations: 4 variants
+- Campaign: Men Comfortma- Launch, recommendations: 4 variants
+- Campaign: Men Pr-mium Modal, recommendations: 4 variants
+- Campaign: Men Pre ium Modal, recommendations: 4 variants
+- Campaign: Men Prem um Modal, recommendations: 4 variants
+- Campaign: Men Premiu- Modal, recommendations: 4 variants
+- Campaign: Men Premium -odal, recommendations: 4 variants
+- Campaign: Men Premium M-dal, recommendations: 4 variants
+- Campaign: Men Premium Mod-l, recommendations: 4 variants
+- Campaign: Men Premium Modal, recommendations: 4 variants
+- Campaign: Men Sig-ature Soft, recommendations: 4 variants
+- Campaign: Men Sigature Soft, recommendations: 4 variants
+- Campaign: Men Signature Soft, recommendations: 4 variants
+- Campaign: Men Signture Soft, recommendations: 4 variants
+- Campaign: Men remium Modal, recommendations: 4 variants
+- Campaign: Men | Athleis re Cooling, recommendations: 4 variants
+- Campaign: Men- Premium  Modal, recommendations: 4 variants
+- Campaign: Men-Bold Colors Drop, recommendations: 4 variants
+- Campaign: Men-Premium Modal, recommendations: 4 variants
+- Campaign: Men_Bold_Co ors_Drop, recommendations: 4 variants
+- Campaign: Men_Bold_Colors_Drop, recommendations: 4 variants
+- Campaign: Men_Comf-rtMax_Launch, recommendations: 4 variants
+- Campaign: Men_Premium_Modal, recommendations: 4 variants
+- Campaign: W MEN Cotton Classics, recommendations: 4 variants
+- Campaign: W men Summer Invisible, recommendations: 4 variants
+- Campaign: W men-Studio Sports, recommendations: 4 variants
+- Campaign: WMEN Cotton Classics, recommendations: 4 variants
+- Campaign: WMEN Seamless Everyday, recommendations: 4 variants
+- Campaign: WOEN  Cotton  Classics, recommendations: 4 variants
+- Campaign: WOEN FIT & LIFT, recommendations: 4 variants
+- Campaign: WOME SEAMLESS EVERYDAY, recommendations: 4 variants
+- Campaign: WOMEN  -eamless  Everyday, recommendations: 4 variants
+- Campaign: WOMEN  Cotton  Cl-ssics, recommendations: 4 variants
+- Campaign: WOMEN  Cotton  Cla-sics, recommendations: 4 variants
+- Campaign: WOMEN  Cotton  Classics, recommendations: 4 variants
+- Campaign: WOMEN  Seamles   Everyday, recommendations: 4 variants
+- Campaign: WOMEN  Seamless  Eve yday, recommendations: 4 variants
+- Campaign: WOMEN  Seamless  Everyday, recommendations: 4 variants
+- Campaign: WOMEN  Seamless- Everyday, recommendations: 4 variants
+- Campaign: WOMEN C tton Classics, recommendations: 4 variants
+- Campaign: WOMEN COTTON CLASS-CS, recommendations: 4 variants
+- Campaign: WOMEN COTTON CLASSICS, recommendations: 4 variants
+- Campaign: WOMEN COTTON CLASSIS, recommendations: 4 variants
+- Campaign: WOMEN COTTON LASSICS, recommendations: 4 variants
+- Campaign: WOMEN Cot-on Classics, recommendations: 4 variants
+- Campaign: WOMEN Coton Classics, recommendations: 4 variants
+- Campaign: WOMEN Cotton Cla-sics, recommendations: 4 variants
+- Campaign: WOMEN Cotton Classics, recommendations: 4 variants
+- Campaign: WOMEN Cotton Classis, recommendations: 4 variants
+- Campaign: WOMEN SEAM ESS EVERYDAY, recommendations: 4 variants
+- Campaign: WOMEN SEAMLESS EV RYDAY, recommendations: 4 variants
+- Campaign: WOMEN SEAMLESS EVE YDAY, recommendations: 4 variants
+- Campaign: WOMEN SEAMLESS EVERYDAY, recommendations: 4 variants
+- Campaign: WOMEN SUMMER I VISIBLE, recommendations: 4 variants
+- Campaign: WOMEN SUMMER INVISIBE, recommendations: 4 variants
+- Campaign: WOMEN SUMMER INVISIBLE, recommendations: 4 variants
+- Campaign: WOMEN SUMMER INVSIBLE, recommendations: 4 variants
+- Campaign: WOMEN Seamless E eryday, recommendations: 4 variants
+- Campaign: WOMEN Seamless Eeryday, recommendations: 4 variants
+- Campaign: WOMEN Seamless Everyday, recommendations: 4 variants
+- Campaign: WOMEN Seamless Everydy, recommendations: 4 variants
+- Campaign: WOMEN Semless Everyday, recommendations: 4 variants
+- Campaign: WOMEN eamless Everyday, recommendations: 4 variants
+- Campaign: WOMEN otton Classics, recommendations: 4 variants
+- Campaign: WOMEN | STUDIO SPORTS, recommendations: 4 variants
+- Campaign: WOMEN | SUDIO SPORTS, recommendations: 4 variants
+- Campaign: WOMENSeamless Everyday, recommendations: 4 variants
+- Campaign: WOMEN_Cot-on_Classics, recommendations: 4 variants
+- Campaign: WOMEN_Cotton_Clas ics, recommendations: 4 variants
+- Campaign: WOMEN_Cotton_Classics, recommendations: 4 variants
+- Campaign: WOMEN_Seamless_Ever-day, recommendations: 4 variants
+- Campaign: WOMEN_Seamless_Everyday, recommendations: 4 variants
+- Campaign: WOMEN_otton_Classics, recommendations: 4 variants
+- Campaign: WOMN Cotton Classics, recommendations: 4 variants
+- Campaign: WOMN_Cotton_Classics, recommendations: 4 variants
+- Campaign: Wmen | Studio Sports, recommendations: 4 variants
+- Campaign: Wmen_Fit_&_Lift, recommendations: 4 variants
+- Campaign: Wo-en  |  Studio  Sports, recommendations: 4 variants
+- Campaign: Wom n-Studio Sports, recommendations: 4 variants
+- Campaign: Wom-n Cotton Classics, recommendations: 4 variants
+- Campaign: Wom-n Fit & Lift, recommendations: 4 variants
+- Campaign: Women  |  Studio  Sports, recommendations: 4 variants
+- Campaign: Women  |  Studio Sports, recommendations: 4 variants
+- Campaign: Women C-tton Classics, recommendations: 4 variants
+- Campaign: Women Co-ton Classics, recommendations: 4 variants
+- Campaign: Women Cottn Classics, recommendations: 4 variants
+- Campaign: Women Cotton Clas ics, recommendations: 4 variants
+- Campaign: Women Cotton Classics, recommendations: 4 variants
+- Campaign: Women Cotton Classis, recommendations: 4 variants
+- Campaign: Women Cotton lassics, recommendations: 4 variants
+- Campaign: Women Fit  Lift, recommendations: 4 variants
+- Campaign: Women Fit & ift, recommendations: 4 variants
+- Campaign: Women Se mless Everyday, recommendations: 4 variants
+- Campaign: Women Seamless Eve yday, recommendations: 4 variants
+- Campaign: Women Seamless Everyday, recommendations: 4 variants
+- Campaign: Women Semless Everyday, recommendations: 4 variants
+- Campaign: Women Sum er Invisible, recommendations: 4 variants
+- Campaign: Women Summ-r Invisible, recommendations: 4 variants
+- Campaign: Women Summer In-isible, recommendations: 4 variants
+- Campaign: Women Summer Invisi-le, recommendations: 4 variants
+- Campaign: Women Summer Invisible, recommendations: 4 variants
+- Campaign: Women it & Lift, recommendations: 4 variants
+- Campaign: Women | Stu io Sports, recommendations: 4 variants
+- Campaign: Women | Studi Sports, recommendations: 4 variants
+- Campaign: Women | Studio  ports, recommendations: 4 variants
+- Campaign: Women | Studio Sp rts, recommendations: 4 variants
+- Campaign: Women | Studio Spo-ts, recommendations: 4 variants
+- Campaign: Women | Studio Spors, recommendations: 4 variants
+- Campaign: Women | Studio Sports, recommendations: 4 variants
+- Campaign: Women | tudio Sports, recommendations: 4 variants
+- Campaign: Women-Stud o Sports, recommendations: 4 variants
+- Campaign: Women-Studio -ports, recommendations: 4 variants
+- Campaign: Women-Studio S orts, recommendations: 4 variants
+- Campaign: Women-Studio Spo-ts, recommendations: 4 variants
+- Campaign: Women-Studio Sports, recommendations: 4 variants
+- Campaign: Women-Studio-Sports, recommendations: 4 variants
+- Campaign: WomenCotton Classics, recommendations: 4 variants
+- Campaign: WomenSeamless Everyday, recommendations: 4 variants
+- Campaign: Women_-it_&_Lift, recommendations: 4 variants
+- Campaign: Women_|-Studio_Sports, recommendations: 4 variants
+- Campaign: Women_|_Studio_ ports, recommendations: 4 variants
+- Campaign: Women_|_Studio_Spo ts, recommendations: 4 variants
+- Campaign: Women_|_Studio_Sports, recommendations: 4 variants
+- Campaign: me bold colors drop, recommendations: 4 variants
+- Campaign: men bld colors drop, recommendations: 4 variants
+- Campaign: men bo-d colors drop, recommendations: 4 variants
+- Campaign: men bold clors drop, recommendations: 4 variants
+- Campaign: men bold colors drop, recommendations: 4 variants
+- Campaign: men co fortmax launch, recommendations: 4 variants
+- Campaign: men comfor-max launch, recommendations: 4 variants
+- Campaign: men premium modal, recommendations: 4 variants
+- Campaign: men sig ature soft, recommendations: 4 variants
+- Campaign: men signa ure soft, recommendations: 4 variants
+- Campaign: men signature soft, recommendations: 4 variants
+- Campaign: omen Summer Invisible, recommendations: 4 variants
+- Campaign: omen | Studio Sports, recommendations: 4 variants
+- Campaign: w men cotton classics, recommendations: 4 variants
+- Campaign: w-men cotton classics, recommendations: 4 variants
+- Campaign: wo-en seamless everyday, recommendations: 4 variants
+- Campaign: woen Summer Invisible, recommendations: 4 variants
+- Campaign: wom-n_Summer_Invisible, recommendations: 4 variants
+- Campaign: wome  Summer Invisible, recommendations: 4 variants
+- Campaign: women  Summ r  Invisible, recommendations: 4 variants
+- Campaign: women  Summer  Invi ible, recommendations: 4 variants
+- Campaign: women  Summer  Invisib e, recommendations: 4 variants
+- Campaign: women  Summer  Invisible, recommendations: 4 variants
+- Campaign: women Su mer Invisible, recommendations: 4 variants
+- Campaign: women Summ-r Invisible, recommendations: 4 variants
+- Campaign: women Summer  nvisible, recommendations: 4 variants
+- Campaign: women Summer In isible, recommendations: 4 variants
+- Campaign: women Summer In-isible, recommendations: 4 variants
+- Campaign: women Summer Inv-sible, recommendations: 4 variants
+- Campaign: women Summer Invi-ible, recommendations: 4 variants
+- Campaign: women Summer Invisble, recommendations: 4 variants
+- Campaign: women Summer Invisi-le, recommendations: 4 variants
+- Campaign: women Summer Invisible, recommendations: 4 variants
+- Campaign: women c-tton classics, recommendations: 4 variants
+- Campaign: women co ton classics, recommendations: 4 variants
+- Campaign: women cott n classics, recommendations: 4 variants
+- Campaign: women cotton clasics, recommendations: 4 variants
+- Campaign: women cotton classics, recommendations: 4 variants
+- Campaign: women fit & li t, recommendations: 4 variants
+- Campaign: women s amless everyday, recommendations: 4 variants
+- Campaign: women s-mmer invisible, recommendations: 4 variants
+- Campaign: women seam-ess everyday, recommendations: 4 variants
+- Campaign: women seamess everyday, recommendations: 4 variants
+- Campaign: women seaml-ss everyday, recommendations: 4 variants
+- Campaign: women seamless everday, recommendations: 4 variants
+- Campaign: women seamless everyday, recommendations: 4 variants
+- Campaign: women seamless-everyday, recommendations: 4 variants
+- Campaign: women su-mer invisible, recommendations: 4 variants
+- Campaign: women summe- invisible, recommendations: 4 variants
+- Campaign: women summer in isible, recommendations: 4 variants
+- Campaign: women summer invisible, recommendations: 4 variants
+- Campaign: women | studio sp-rts, recommendations: 4 variants
+- Campaign: women | studio spo ts, recommendations: 4 variants
+- Campaign: women | studio sports, recommendations: 4 variants
+- Campaign: women | studio sprts, recommendations: 4 variants
+- Campaign: women_Summe _Invisible, recommendations: 4 variants
+- Campaign: women_Summer_Inisible, recommendations: 4 variants
+- Campaign: women_Summer_Invisi-le, recommendations: 4 variants
+- Campaign: women_Summer_Invisible, recommendations: 4 variants
+- Campaign: womn  Summer  Invisible, recommendations: 4 variants
+- Campaign: womn cotton classics, recommendations: 4 variants
