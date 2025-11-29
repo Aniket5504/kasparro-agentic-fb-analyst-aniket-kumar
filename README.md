@@ -27,5 +27,3 @@ flowchart TD
     D -->|Hypotheses| E[Evaluator Agent]
     E -->|Validated Hypotheses| F[Creative Generator]
     F --> G[Reports & Logs]
-
-This line is added to enable PR creation.
