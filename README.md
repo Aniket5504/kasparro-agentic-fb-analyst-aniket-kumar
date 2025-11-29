@@ -18,16 +18,12 @@ python src/run.py "Analyze ROAS drop in last 7 days"
 
 
 ## Architecture Diagram (flow)
-User Query
-  ↓
-Planner Agent
-  ↓
-Data Agent -> Data Summary
-  ↓
-Insight Agent -> Hypotheses
-  ↓
-Evaluator Agent -> Validated Hypotheses
-  ↓
-Creative Generator -> Creative Variants
-  ↓
-Reports + Logs (reports/, logs/)
+
+```mermaid
+flowchart TD
+    A[User Query] --> B[Planner Agent]
+    B --> C[Data Agent]
+    C -->|Data Summary| D[Insight Agent]
+    D -->|Hypotheses| E[Evaluator Agent]
+    E -->|Validated Hypotheses| F[Creative Generator]
+    F --> G[Reports & Logs]
